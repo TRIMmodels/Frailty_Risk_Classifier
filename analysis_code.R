@@ -360,7 +360,9 @@ esther_bl <- esther_bl %>%
 #   28    self-rated general health
 #   29-31 lifestyle-related factors
 #
-# Each deficit is coded from 0 to 1.
+# Each deficit is scored on a 0-to-1 scale, where 0 indicates absence
+# of the deficit and 1 indicates full presence; intermediate values are
+# used for ordinal or graded deficits where applicable.
 # FI is calculated as the sum of the 31 deficit scores divided by 31.
 
 # ---- 03.2 Frailty thresholds ----
